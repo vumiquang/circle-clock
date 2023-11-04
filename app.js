@@ -117,7 +117,7 @@ function setActiveCircle(parent, currentValue, count, currentId) {
     const newDate = currentTime.getDate() - 1;
     const newMonth = currentTime.getMonth();
     const newYear = currentTime.getFullYear();
-    const newDay = currentTime.getDate();
+    const newDay = currentTime.getDay();
 
     setActiveCircle(
       secondParent,
